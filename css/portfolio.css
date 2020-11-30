@@ -1,0 +1,153 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+  }
+
+  .navbar{
+      
+      background:#be3144; ;
+  }
+
+  .navbar-nav li a{color: #f0f0f0;}
+
+/*  .navbar-default .navbar-fnt {
+    color: #f0f0f0;;
+}
+.navbar-default .navbar-backgrnd {
+    color: #be3144;
+}*/
+
+body{
+background-color: #303841; ;
+
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+
+}
+
+.mainbody-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+  
+  .mainbody-section > p {
+    font-size: 3rem;
+    font-weight: 200;
+    font-style: italic;
+    color: var(--main-red);
+  }
+
+  .mainbody-section > h1 {color:white;}
+  #work{background-color:  #45567d;}
+
+  #work > h2{
+    max-width: 640px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+    color:white;
+  }
+  .card {
+    float: left;
+    width: 100%;
+    padding: .75rem;
+    margin-bottom: 2rem;
+    border: 0;
+    box-shadow: 0px 0px 8px 0.3px rgba(0, 0, 0, 1);
+  }
+
+  /* Contact section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: var(--main-gray);
+    color:white;
+  }
+  
+  #contact > h2 {
+    font-size: 6rem;
+  }
+
+  }
+  
+  #contact > p {
+    font-style: italic;
+  }
+  
+ .contact-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 980px;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+    color:white;
+    
+  }
+  
+  .contact-details {
+    font-size: 2.4rem;
+    text-shadow: 2px 2px 1px #1f1f1f;
+    transition: transform 0.3s ease-out;
+    color:white;
+    
+}
+  
+  .contact-details:hover {
+    transform: translateY(8px);
+  }
+
+  .fa-facebook {
+  
+    color: white;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  
+  /* Footer */
+  
+  footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background: var(--main-gray);
+    border-top: 4px solid var(--main-red);
+    color:white;
+  }
+  
+  footer > p {
+    margin: 2rem;
+    color:white;
+  }
+  
+  footer >a{
+    vertical-align: middle;
+    color:white;
+  }
+  

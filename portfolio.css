@@ -1,0 +1,22 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+  }
+
+  .navbar-custom{
+      font: #f0f0f0;
+      background-color:#be3144; ;
+  }
+body{
+background-color: #303841; ;
+
+}
+
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
